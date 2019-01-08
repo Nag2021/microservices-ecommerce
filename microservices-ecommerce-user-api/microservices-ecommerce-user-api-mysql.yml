@@ -14,10 +14,9 @@ spring:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-      generate-ddl=true
     hibernate:
       ddl-auto: create
-    
+    generate-ddl=true
 
 management:
   server:
